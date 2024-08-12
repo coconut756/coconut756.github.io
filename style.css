@@ -1,0 +1,147 @@
+* {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #c7cbff;
+}
+
+.wrapped {
+    width: 1300px;
+    margin: auto;
+    position: sticky;
+}
+
+.logo a {
+    padding-left: 55px;
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: rgb(97, 111, 236);
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(253, 255, 254);
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 16px 5px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background-color: rgb(136, 123, 255);
+    transition: 0.7s ease-in-out;
+    transition-delay: o.1ms;
+    border-radius: 8px;
+}
+
+.image {
+    float: right;
+    margin-top: 50px;
+}
+
+h1 {
+    padding: 15px 40px 15px 40px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(42, 39, 39);
+    text-decoration: bold;
+}
+
+P {
+    padding: 5px 40px 5px 40px;
+    font-size: 20px;
+    color: rgb(42, 39, 39); 
+}
+
+.deskripsi {
+    padding: 5px 59px 5px 59px;
+}
+
+.deskripsi3 {
+    padding: 1px 59px 1px 59px;
+}
+
+.deskripsi9 {
+    padding: 0px 20px 0px 20px;
+}
+
+.daftar {
+    padding: 15px 40px 15px 40px;
+    font-size: 25px;
+    color: rgb(42, 39, 39);
+}
+
+.daftar a:hover {
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(136, 123, 255);
+    transition: 0.7s ease-in-out;
+    transition-delay: o.1ms;
+    border-radius: 8px;
+}
+
+.traktir {
+    padding: 15px 60px 15px 60px;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.traktir a {
+    color: rgb(42, 39, 39);
+}
+
+.traktir a:hover {
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(136, 123, 255);
+    transition: 0.7s ease-in-out;
+    transition-delay: o.1ms;
+    border-radius: 8px;
+}
+
+.form {
+    padding: 10px 40px 1px 40px;
+}
+
+@media(max-width: 991px){
+    nav {
+        padding: 0 50px;
+    }
+}
